@@ -1,0 +1,28 @@
+{
+  "name": "stock_alert",
+  "version": "1.0.0",
+  "description": "A Node API (and a CLI) for Live notification on NIFTY, SENSEX, NASDAQ, DOWJONES Indices.",
+  "main": "index.js",
+  "bin": {
+    "stock_alert": "cli.js"
+  },
+  "scripts": {
+    "test": "stock-alert nifty # for NIFTY"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/85599/Stock_Alert.git"
+  },
+  "keywords": [
+    "["
+  ],
+  "author": "khushal <khushaljain023@gmail.com> (https://github.com/85599/thar-stocks.git)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/85599/Stock_Alert/issues"
+  },
+  "homepage": "https://github.com/85599/Stock_Alert#readme",
+  "dependencies": {
+    "package-lock": "^1.0.5"
+  }
+}
